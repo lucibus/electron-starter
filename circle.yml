@@ -1,0 +1,11 @@
+machine:
+  xcode:
+    version: "6.3.1"
+dependencies:
+  override:
+    - brew install node
+  post:
+    - ./script/bootstrap
+test:
+  override:
+    - ./script/build
