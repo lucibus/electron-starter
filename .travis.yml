@@ -17,7 +17,8 @@ install:
   - nvm install $NODE_VERSION
   - nvm use $NODE_VERSION
 
-script: script/cibuild
+install: script/bootstrap
+script: script/build
 
 addons:
   apt:
