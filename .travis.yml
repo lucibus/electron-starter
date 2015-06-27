@@ -28,6 +28,7 @@ addons:
     - libgnome-keyring-dev
     - fakeroot
     - libnotify-dev
-    - dbus
-    - libgconf2
+    - libdbus-glib-1-dev
+    - gconf2
+    - libgconf2-dev
     
