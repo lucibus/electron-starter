@@ -18,11 +18,6 @@ install:
 
 script: script/cibuild
 
-notifications:
-  email:
-    on_success: never
-    on_failure: change
-
 addons:
   apt:
     packages:
