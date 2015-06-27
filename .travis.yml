@@ -1,0 +1,9 @@
+language: cpp
+compiler: clang
+os:
+  - osx
+install: './script/bootstrap'
+script: './script/build'
+
+git:
+  depth: 10
