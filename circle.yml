@@ -1,4 +1,10 @@
+machine:
+  node:
+    version: 0.12
 dependencies:
+  pre:
+    - sudo apt-get update; sudo apt-get install git libgnome-keyring-dev fakeroot libnotify-dev libdbus-glib-1-dev gconf2 libgconf2-dev
+
   post:
     - ./script/bootstrap
 test:
